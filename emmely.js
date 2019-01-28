@@ -114,12 +114,19 @@ client.on("message", (message) => {
     }else
     if (message.content.startsWith(prefix + "bner")){
       message.channel.send(':hearts:  **BIENVENIDOS** :hearts: \n'+
+      ' \n'+
       ':bangbang:__**REGLAS**__:bangbang: \n'+
+      ' \n'+
       'Ayudemos a mantener un ambiente sano cumpliendo con las siguientes __**REGLAS:**__ \n'+
+      ' \n'+
       '**1)** Los canales son de libre opinión, pero no se permitirán comentarios inapropiados. Cuidar el uso de palabras que puedan ser mal interpretadas por otros usuarios o de contexto obsceno.\n'+
+      ' \n'+
       '**2)** Está terminantemente prohibido compartir contenido de carácter político, pornográfico o gore (Incluyendo contenido NSFW).\n'+
+      ' \n'+
       '**3) **Está prohibido el Racismo/Discriminación/Faltas de Respeto contra otros usuarios en este servidor.\n'+
+      ' \n'+
       '**4)** No Spam! \n'+
+      ' \n'+
       ':star2: **REDES SOCIALES** :star2: \n'+
       ':small_blue_diamond:  <https://www.twitch.tv/emmelymf> \n'+
       ':small_blue_diamond:  <https://www.instagram.com/emmelylizeth> \n');
@@ -134,7 +141,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'love <@user> y <@user> | Muestra el amor que tienes entre dos personas .\n'+
                        '-> '+prefix+'insta | Instagram.\n'+
                        '-> '+prefix+'twitch | Twitch.\n'+
-                       '-> '+prefix+'banned| banned.jpg.\n'+
+                       '-> '+prefix+'banned| banned.gif.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                        '-------------------------------------------------------------------------------------\n'+
                        '**EmmelyBOT - Bot Oficial del servidor**\n');
