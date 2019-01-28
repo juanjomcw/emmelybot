@@ -114,7 +114,7 @@ client.on("message", (message) => {
     }else
     if (message.content.startsWith(prefix + "bner")){
       message.channel.send(':hearts:  **BIENVENIDOS** :hearts: \n'+
-      ' \n'+
+      '"", {file:"https://cdn.discordapp.com/attachments/421867754480599050/468529032494055454/O3DHIA5.gif"} \n'+
       ':bangbang:__**REGLAS**__:bangbang: \n'+
       ' \n'+
       'Ayudemos a mantener un ambiente sano cumpliendo con las siguientes __**REGLAS:**__ \n'+
