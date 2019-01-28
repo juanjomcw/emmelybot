@@ -11,12 +11,12 @@ client.on("ready", () => {
  client.on("guildMemberAdd", (member) => 
  {
      messageToSend = "Bienvenido " + member.user + " a la #Mizuki-Stream! <:POGGERS:500023205864407044> ";
-     client.channels.get('539486579450970112').sendMessage(messageToSend);
+     client.channels.get('539501533553754123').sendMessage(messageToSend);
  });
  client.on("guildMemberRemove", (member) => 
  {
      messageToSend = member.user.username + " ha salido del servidor, adios popo! <:FeelsBadMan:539490900976599060>";
-     client.channels.get('539486579450970112').sendMessage(messageToSend);
+     client.channels.get('539501533553754123').sendMessage(messageToSend);
  });
 
 let prefix = process.env.PREFIX;
