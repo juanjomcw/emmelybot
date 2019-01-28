@@ -112,6 +112,19 @@ client.on("message", (message) => {
 
         message.channel.send({embed});
     }else
+    if (message.content.startsWith(prefix + "bner")){
+      message.channel.send(':hearts:  **BIENVENIDOS** :hearts: \n'+
+      ':bangbang:__**REGLAS**__:bangbang: \n'+
+      'Ayudemos a mantener un ambiente sano cumpliendo con las siguientes __**REGLAS:**__ \n'+
+      '**1)** Los canales son de libre opinión, pero no se permitirán comentarios inapropiados. Cuidar el uso de palabras que puedan ser mal interpretadas por otros usuarios o de contexto obsceno.\n'+
+      '**2)** Está terminantemente prohibido compartir contenido de carácter político, pornográfico o gore (Incluyendo contenido NSFW).\n'+
+      '**3) **Está prohibido el Racismo/Discriminación/Faltas de Respeto contra otros usuarios en este servidor.\n'+
+      '**4)** No Spam! \n'+
+      ':star2: **REDES SOCIALES** :star2: \n'+
+      ':small_blue_diamond:  <https://www.twitch.tv/emmelymf> \n'+
+      ':small_blue_diamond:  <https://www.instagram.com/emmelylizeth> \n');
+       
+    }else
         if(message.content.startsWith(prefix + "help")){
      
    message.channel.send('**'+message.author.username+'**, Revisa tus mensajes privados.');
@@ -125,6 +138,6 @@ client.on("message", (message) => {
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                        '-------------------------------------------------------------------------------------\n'+
                        '**EmmelyBOT - Bot Oficial del servidor**\n');
-        }
+    }
 });
 client.login(process.env.TOKEN);
