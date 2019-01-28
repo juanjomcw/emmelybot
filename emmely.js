@@ -130,7 +130,7 @@ client.on("message", (message) => {
        
     }else
         if (message.content.startsWith(prefix + "fierro")){
-      message.channel.send('Pariente! <:PowerUpL:539539511865245726><:OhMyDog:539539508212006912><:PowerUpR:539539515501445130>'});
+      message.channel.send('Pariente! <:PowerUpL:539539511865245726><:OhMyDog:539539508212006912><:PowerUpR:539539515501445130>');
        
     }else
         if (message.content.startsWith(prefix + "ber2")){
