@@ -113,10 +113,7 @@ client.on("message", (message) => {
         message.channel.send({embed});
     }else
     if (message.content.startsWith(prefix + "bner")){
-      message.channel.send(':hearts:  **BIENVENIDOS** :hearts: \n'+
-      ''' {file:'https://cdn.discordapp.com/attachments/261204184307728384/539507509732442115/panel-411372051-image-e5747b2e-8258-4c7f-b8f0-7af374951511.jpg'} \n'+
-      ':bangbang:__**REGLAS**__:bangbang: \n'+
-      ' \n'+
+      message.channel.send('' \n'+
       'Ayudemos a mantener un ambiente sano cumpliendo con las siguientes __**REGLAS:**__ \n'+
       ' \n'+
       '**1)** Los canales son de libre opinión, pero no se permitirán comentarios inapropiados. Cuidar el uso de palabras que puedan ser mal interpretadas por otros usuarios o de contexto obsceno.\n'+
@@ -132,6 +129,10 @@ client.on("message", (message) => {
       ':small_blue_diamond:  <https://www.instagram.com/emmelylizeth> \n');
        
     }else
+        if (message.content.startsWith(prefix + "bner2")){
+      message.channel.send(':hearts:  **BIENVENIDOS** :hearts:', {file:"https://cdn.discordapp.com/attachments/261204184307728384/539507509732442115/panel-411372051-image-e5747b2e-8258-4c7f-b8f0-7af374951511.jpg"});
+       
+}else
         if(message.content.startsWith(prefix + "help")){
      
    message.channel.send('**'+message.author.username+'**, Revisa tus mensajes privados.');
