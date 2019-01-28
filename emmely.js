@@ -10,7 +10,7 @@ client.on("ready", () => {
 
  client.on("guildMemberAdd", (member) => 
  {
-     messageToSend = "Bienvenido " + member.user + " a la #Mizuki-Stream! <:POGGERS:500023205864407044> ";
+     messageToSend = "Bienvenido " + member.user + "! <:POGGERS:539490934115794975> ";
      client.channels.get('539501533553754123').sendMessage(messageToSend);
  });
  client.on("guildMemberRemove", (member) => 
