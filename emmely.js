@@ -87,7 +87,7 @@ client.on("message", (message) => {
       message.channel.send("<:BAN:539490906097582101><:NED:539490907721039888>", {file:"https://cdn.discordapp.com/attachments/421867754480599050/468529032494055454/O3DHIA5.gif"});
        
 }else 
-    if(message.content.startsWith(prefix + 'love')){
+    if(message.content.startsWith(prefix + 'amor')){
         let users = message.mentions.users.map(m => m.username).join(' y ');
      if(!users) return message.channel.send('Mencione a dos usuarios para calcular');
     
@@ -129,17 +129,22 @@ client.on("message", (message) => {
       ':small_blue_diamond:  <https://www.instagram.com/emmelylizeth> \n');
        
     }else
+        if (message.content.startsWith(prefix + "fierro")){
+      message.channel.send('Pariente! <:PowerUpL:539539511865245726><:OhMyDog:539539508212006912><:PowerUpR:539539515501445130>'});
+       
+    }else
         if (message.content.startsWith(prefix + "ber2")){
       message.channel.send(':hearts:  **BIENVENIDOS** :hearts:', {file:"https://cdn.discordapp.com/attachments/261204184307728384/539507509732442115/panel-411372051-image-e5747b2e-8258-4c7f-b8f0-7af374951511.jpg"});
        
-}else
+    }else
         if(message.content.startsWith(prefix + "help")){
      
    message.channel.send('**'+message.author.username+'**, Revisa tus mensajes privados.');
    message.author.send('**Comandos de EmmelyBOT**\n'+
                        '-> '+prefix+'avatar <@user> | Muestra el avatar de un usuario.\n'+
+                       '-> '+prefix+'fierro .\n'+
                        '-> '+prefix+'caracola <pregunta> | El bot respondera a tus preguntas (8ball).\n'+
-                       '-> '+prefix+'love <@user> y <@user> | Muestra el amor que tienes entre dos personas .\n'+
+                       '-> '+prefix+'amor <@user> y <@user> | Muestra el amor que tienes entre dos personas .\n'+
                        '-> '+prefix+'insta | Instagram.\n'+
                        '-> '+prefix+'twitch | Twitch.\n'+
                        '-> '+prefix+'banned| banned.gif.\n'+
