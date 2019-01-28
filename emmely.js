@@ -129,7 +129,7 @@ client.on("message", (message) => {
       ':small_blue_diamond:  <https://www.instagram.com/emmelylizeth> \n');
        
     }else
-        if (message.content.startsWith(prefix + "bner2")){
+        if (message.content.startsWith(prefix + "ber2")){
       message.channel.send(':hearts:  **BIENVENIDOS** :hearts:', {file:"https://cdn.discordapp.com/attachments/261204184307728384/539507509732442115/panel-411372051-image-e5747b2e-8258-4c7f-b8f0-7af374951511.jpg"});
        
 }else
