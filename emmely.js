@@ -113,7 +113,7 @@ client.on("message", (message) => {
         message.channel.send({embed});
     }else
     if (message.content.startsWith(prefix + "bner")){
-      message.channel.send('' \n'+
+      message.channel.send(' \n'+
       'Ayudemos a mantener un ambiente sano cumpliendo con las siguientes __**REGLAS:**__ \n'+
       ' \n'+
       '**1)** Los canales son de libre opinión, pero no se permitirán comentarios inapropiados. Cuidar el uso de palabras que puedan ser mal interpretadas por otros usuarios o de contexto obsceno.\n'+
