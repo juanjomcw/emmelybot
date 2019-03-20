@@ -53,6 +53,9 @@ client.on("message", (message) => {
    message.channel.send('https://www.twitch.tv/emmelymf');
  
 }else
+ if (message.content.startsWith(prefix + "videos")){
+   message.channel.send('@everyone aqui pueden mandar los videos que quieren que veamos en stream <:uff:539490942898536448>');
+ }else
  if(message.content.startsWith(prefix + 'avatar')){
    let img = message.mentions.users.first()
    if (!img) {
