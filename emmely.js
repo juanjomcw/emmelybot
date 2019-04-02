@@ -88,10 +88,14 @@ client.on("message", (message) => {
        var rpts = ["Sí", "No", "Tal vez", "No sé", "Definitivamente NO", " ¡Claro! "," Probablemente "," No "," Por supuesto! "," Por supuesto que no ", "Definitivamente NO"];
        if (!arguments) return message.reply(`Escriba una pregunta.`);
        message.channel.send(message.member.user+' Mi respuesta es: `'+ rpts[Math.floor(Math.random() * rpts.length)]+'`');
-   
-  }else
+ 
+    }else
     if (message.content.startsWith(prefix + "banned")){
       message.channel.send("<:BAN:539490906097582101><:NED:539490907721039888>", {file:"https://cdn.discordapp.com/attachments/421867754480599050/468529032494055454/O3DHIA5.gif"});
+       
+}else
+    if (message.content.startsWith(prefix + "chicas")){
+      message.channel.send(":heartpulse: Las chicas Super Poderosas :heartpulse: ", {file:"https://cdn.discordapp.com/attachments/539507084543131648/562558355386662922/unknown.png"});
        
 }else 
     if(message.content.startsWith(prefix + 'amor')){
