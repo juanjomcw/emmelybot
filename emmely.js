@@ -95,7 +95,7 @@ client.on("message", (message) => {
        
 }else
     if (message.content.startsWith(prefix + "chicas")){
-      message.channel.send(":heartpulse: Las chicas Super Poderosas :heartpulse: ", {file:"https://cdn.discordapp.com/attachments/539507084543131648/562558355386662922/unknown.png"});
+      message.channel.send(":heartpulse: __**Las chicas Super Poderosas**__ :heartpulse: ", {file:"https://cdn.discordapp.com/attachments/539507084543131648/562558355386662922/unknown.png"});
        
 }else 
     if(message.content.startsWith(prefix + 'amor')){
