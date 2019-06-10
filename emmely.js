@@ -4,7 +4,7 @@ const  client = new Discord.Client();
 client.on("ready", () => {
    console.log("Estoy listo!");
    
-   client.user.setGame('https://www.twitch.tv/emmelymf');
+   client.user.setGame('!help');
 
 });
 
@@ -161,7 +161,7 @@ client.on("message", (message) => {
                        '-> '+prefix+'banned| banned.gif.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                        '-------------------------------------------------------------------------------------\n'+
-                       '**EmmelyBOT - Bot Oficial del servidor**\n');
+                       '**BurritoBOT - Bot Oficial del servidor**\n');
     }
 });
 client.login(process.env.TOKEN);
