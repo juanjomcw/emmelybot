@@ -4,7 +4,7 @@ const  client = new Discord.Client();
 client.on("ready", () => {
    console.log("Estoy listo!");
    
-   client.user.setGame('!help');
+   client.user.setGame('!help | https://www.twitch.tv/emmely');
 
 });
 
@@ -26,7 +26,7 @@ client.on("message", (message) => {
     if (message.author.bot) return;
 
    if (message.content.startsWith(prefix + "twitter")){
-   message.channel.send('');
+   message.channel.send('https://twitter.com/EmmelyLizeth');
  }else
   if (message.content.startsWith(prefix + 'del')) {
   if (!message.member.roles.find("name", "Admins")) return message.reply('No tienes permiso de usar este comando.');{
@@ -50,8 +50,8 @@ client.on("message", (message) => {
    message.channel.send('https://www.instagram.com/emmelylizeth/');
  }else
  if (message.content.startsWith(prefix + "twitch")){
-   message.channel.send('https://www.twitch.tv/emmelymf');
- 
+   message.channel.send('https://www.twitch.tv/emmely');
+
 }else
  if (message.content.startsWith(prefix + "youtube")){
    message.channel.send('https://www.youtube.com/channel/UCyl6WgshW4d8mHLIVZB_yIQ');
@@ -123,7 +123,7 @@ client.on("message", (message) => {
 
         message.channel.send({embed});
     }else
-    if (message.content.startsWith(prefix + "bner")){
+    if (message.content.startsWith(prefix + "bner2")){
       message.channel.send(' \n'+
       'Ayudemos a mantener un ambiente sano cumpliendo con las siguientes __**REGLAS:**__ \n'+
       ' \n'+
@@ -136,7 +136,8 @@ client.on("message", (message) => {
       '**4)** No Spam! \n'+
       ' \n'+
       ':star2: **REDES SOCIALES** :star2: \n'+
-      ':small_blue_diamond:  <https://www.twitch.tv/emmelymf> \n'+
+      ':small_blue_diamond:  <https://www.twitch.tv/emmely> \n'+
+      ':small_blue_diamond:  <https://twitter.com/EmmelyLizeth> \n'+
       ':small_blue_diamond:  <https://www.instagram.com/emmelylizeth> \n');
        
     }else
@@ -144,20 +145,21 @@ client.on("message", (message) => {
       message.channel.send('Pariente! <:PowerUpL:539539511865245726><:OhMyDog:539539508212006912><:PowerUpR:539539515501445130>');
        
     }else
-        if (message.content.startsWith(prefix + "ber2")){
-      message.channel.send(':hearts:  **BIENVENIDOS** :hearts:', {file:"https://cdn.discordapp.com/attachments/261204184307728384/539507509732442115/panel-411372051-image-e5747b2e-8258-4c7f-b8f0-7af374951511.jpg"});
+        if (message.content.startsWith(prefix + "bner1")){
+      message.channel.send(':hearts:  **BIENVENIDOS** :hearts:', {file:"https://cdn.discordapp.com/attachments/314247539018825728/695775474647040070/unknown.png"});
        
     }else
         if(message.content.startsWith(prefix + "help")){
      
    message.channel.send('**'+message.author.username+'**, Revisa tus mensajes privados.');
-   message.author.send('**Comandos de EmmelyBOT**\n'+
+   message.author.send('**Comandos de BurritoBOT**\n'+
                        '-> '+prefix+'avatar <@user> | Muestra el avatar de un usuario.\n'+
                        '-> '+prefix+'fierro .\n'+
                        '-> '+prefix+'caracola <pregunta> | El bot respondera a tus preguntas (8ball).\n'+
                        '-> '+prefix+'amor <@user> y <@user> | Muestra el amor que tienes entre dos personas .\n'+
                        '-> '+prefix+'insta | Instagram.\n'+
                        '-> '+prefix+'twitch | Twitch.\n'+
+                       '-> '+prefix+'twitter | Twitter.\n'+
                        '-> '+prefix+'banned| banned.gif.\n'+
                        '-> '+prefix+'del <cantidad> | borra los mensajes (SOLO MODERADORES).\n'+
                        '-------------------------------------------------------------------------------------\n'+
