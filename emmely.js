@@ -139,6 +139,16 @@ client.on("message", (message) => {
       ':small_blue_diamond:  <https://www.twitch.tv/emmely> \n'+
       ':small_blue_diamond:  <https://twitter.com/EmmelyLizeth> \n'+
       ':small_blue_diamond:  <https://www.instagram.com/emmelylizeth> \n');
+      
+    }else
+        if (message.content.startsWith(prefix + "info1")){
+      message.channel.send(' \n'+
+                           '**Hey si eres sub sigue las siguientes indicaciones para tener el rol** \n'+
+                           ' \n'+
+                           ':small_blue_diamond: Ve a configuracion (engrane) y en las opciones selecciona **Conecciones/Connections** \n'+
+                           ':small_blue_diamond: Enseguida te saldrán distintas aplicaciones que puedes conectar a Discord, escoge Twitch y vinculas la cuenta \n'+
+                           ':small_blue_diamond: Al vincular la cuenta veras un nuevo apartado donde salen tus suscripciones \n'+);
+                           
        
     }else
         if (message.content.startsWith(prefix + "fierro")){
