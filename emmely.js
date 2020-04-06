@@ -145,9 +145,10 @@ client.on("message", (message) => {
       message.channel.send(' \n'+
                            '**Hey si eres sub sigue las siguientes indicaciones para tener el rol** \n'+
                            ' \n'+
-                           ':small_blue_diamond: Ve a configuracion (engrane) y en las opciones selecciona **Conecciones/Connections** \n'+
+                           ':small_blue_diamond: Ve a configuracion (engrane) y en las opciones selecciona **Conexiones/Connections** \n'+
                            ':small_blue_diamond: Enseguida te saldrán distintas aplicaciones que puedes conectar a Discord, escoge Twitch e ingresa tu cuenta de twitch \n'+
-                           ':small_blue_diamond: Al vincular la cuenta veras un nuevo apartado donde salen tus suscripciones \n');
+                           ':small_blue_diamond: Al vincular la cuenta veras un nuevo apartado donde salen tus suscripciones \n'+
+                           ' \n');
      }else
         if (message.content.startsWith(prefix + "info2")){
       message.channel.send(' ', {file:"https://cdn.discordapp.com/attachments/314247539018825728/696517495472914512/98b2d5986c33cb3560c078ddf78fefb2.png"});
