@@ -146,10 +146,22 @@ client.on("message", (message) => {
                            '**Hey si eres sub sigue las siguientes indicaciones para tener el rol** \n'+
                            ' \n'+
                            ':small_blue_diamond: Ve a configuracion (engrane) y en las opciones selecciona **Conecciones/Connections** \n'+
-                           ':small_blue_diamond: Enseguida te saldrán distintas aplicaciones que puedes conectar a Discord, escoge Twitch y vinculas la cuenta \n'+
+                           ':small_blue_diamond: Enseguida te saldrán distintas aplicaciones que puedes conectar a Discord, escoge Twitch e ingresa tu cuenta de twitch \n'+
                            ':small_blue_diamond: Al vincular la cuenta veras un nuevo apartado donde salen tus suscripciones \n'+);
-                           
-       
+     }else
+        if (message.content.startsWith(prefix + "info2")){
+      message.channel.send(' ', {file:"https://cdn.discordapp.com/attachments/314247539018825728/696517495472914512/98b2d5986c33cb3560c078ddf78fefb2.png"});
+                                  
+    }else
+        if (message.content.startsWith(prefix + "info3")){
+      message.channel.send(' ', {file:"https://cdn.discordapp.com/attachments/314247539018825728/696517693494394890/f279bb5bfb187e165cbf207b8868fcc9.png"});
+    }else
+        if (message.content.startsWith(prefix + "info4")){
+      message.channel.send(' ', {file:"https://cdn.discordapp.com/attachments/314247539018825728/696518057165586559/Sin-titulo-1.png"});
+    }else
+        if (message.content.startsWith(prefix + "info5")){
+   message.channel.send('Ahora podras tener el rol de sub en discord y acceder a canales de texto/voz solo para subs!');
+    
     }else
         if (message.content.startsWith(prefix + "fierro")){
       message.channel.send('Pariente! <:PowerUpL:539539511865245726><:OhMyDog:539539508212006912><:PowerUpR:539539515501445130>');
